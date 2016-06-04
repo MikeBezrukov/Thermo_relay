@@ -6,7 +6,7 @@
 #define V_SPI_PORT  PORTA
 #define V_SPI_DDR   DDRA    
 #define SSn         6
-#define MISO        5
+//#define MISO        5
 #define MOSI        5
 #define SCK         4 
 

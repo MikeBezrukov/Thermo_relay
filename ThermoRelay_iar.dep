@@ -6,305 +6,93 @@
   <configuration>
     <name>Debug</name>
     <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.a90</file>
+      <file>$PROJ_DIR$\voltagectrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\[ROOT_NODE]</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18b20.pbi</file>
       <file>$PROJ_DIR$\bcd.h</file>
-      <file>$PROJ_DIR$\avr_compiler.h</file>
-      <file>$PROJ_DIR$\bcd.s90</file>
-      <file>$PROJ_DIR$\buttons.c</file>
-      <file>$PROJ_DIR$\buttons.h</file>
-      <file>$PROJ_DIR$\customization.h</file>
-      <file>$PROJ_DIR$\display.c</file>
-      <file>$PROJ_DIR$\display.h</file>
-      <file>$PROJ_DIR$\ds18b20.c</file>
-      <file>$PROJ_DIR$\ds18b20.h</file>
-      <file>$PROJ_DIR$\init.c</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\operation.c</file>
-      <file>$PROJ_DIR$\operation.h</file>
-      <file>$PROJ_DIR$\relay.c</file>
-      <file>$PROJ_DIR$\relay.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ThermoRelay_iar.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\relay.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.dbg</file>
+      <file>$PROJ_DIR$\Debug\Obj\init.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usi.r90</file>
+      <file>$PROJ_DIR$\usi.h</file>
+      <file>$PROJ_DIR$\voltagectrl.c</file>
       <file>$PROJ_DIR$\to.c</file>
       <file>$PROJ_DIR$\to.h</file>
       <file>$PROJ_DIR$\usi.c</file>
-      <file>$PROJ_DIR$\usi.h</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl0t-ec_nomul.r90</file>
-      <file>$PROJ_DIR$\user_interface.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\ThermoRelay_iar.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\display.r90</file>
-      <file>$PROJ_DIR$\Debug\Obj\usi.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\user_interface.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\relay.r90</file>
-      <file>$PROJ_DIR$\Debug\Obj\user_interface.r90</file>
-      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
-      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\to.r90</file>
-      <file>$PROJ_DIR$\voltagectrl.c</file>
-      <file>$PROJ_DIR$\voltagectrl.h</file>
-      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\ds18b20.r90</file>
-      <file>$PROJ_DIR$\Debug\Obj\buttons.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdbool.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\bcd.r90</file>
-      <file>$TOOLKIT_DIR$\inc\clib\pgmspace.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\init.r90</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
-      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.dbg</file>
-      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
-      <file>$PROJ_DIR$\init.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\voltagectrl.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\operation.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\voltagectrl.r90</file>
-      <file>$TOOLKIT_DIR$\src\template\cfgtiny24.xcl</file>
-      <file>$PROJ_DIR$\Debug\Obj\buttons.r90</file>
-      <file>$PROJ_DIR$\Debug\Obj\operation.r90</file>
-      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.eeprom.hex</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
-      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.a90</file>
-      <file>$PROJ_DIR$\Debug\Obj\ds18b20.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\to.pbi</file>
-      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.code.hex</file>
-      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.hex</file>
-      <file>$PROJ_DIR$\Debug\Obj\display.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\usi.r90</file>
       <file>$PROJ_DIR$\usi.s90</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.d90</file>
-      <file>$PROJ_DIR$\Debug\Obj\init.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\relay.pbi</file>
-      <file>$TOOLKIT_DIR$\src\template\cfg0t.xcl</file>
-      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iotiny24.inc</file>
+      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.eeprom.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\voltagectrl.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\bcd.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\operation.pbi</file>
       <file>$TOOLKIT_DIR$\inc\iotiny24.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
       <file>$PROJ_DIR$\user_interface.c</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iotiny24.inc</file>
+      <file>$PROJ_DIR$\Debug\Obj\buttons.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\operation.r90</file>
+      <file>$PROJ_DIR$\init.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18b20.r90</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.d90</file>
+      <file>$PROJ_DIR$\init.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\operation.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\ds18b20.c</file>
+      <file>$PROJ_DIR$\ds18b20.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\user_interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\buttons.r90</file>
+      <file>$PROJ_DIR$\customization.h</file>
+      <file>$PROJ_DIR$\display.c</file>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usi.pbi</file>
+      <file>$PROJ_DIR$\operation.h</file>
+      <file>$PROJ_DIR$\user_interface.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\voltagectrl.pbi</file>
+      <file>$PROJ_DIR$\buttons.c</file>
+      <file>$PROJ_DIR$\buttons.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\to.r90</file>
+      <file>$PROJ_DIR$\bcd.s90</file>
+      <file>$PROJ_DIR$\avr_compiler.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\to.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl0t-ec_nomul.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\user_interface.r90</file>
+      <file>$TOOLKIT_DIR$\inc\clib\pgmspace.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg0t.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.code.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\relay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\init.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.hex</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgtiny24.xcl</file>
+      <file>$PROJ_DIR$\relay.c</file>
+      <file>$PROJ_DIR$\relay.h</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\bcd.s90</name>
-      <outputs>
-        <tool>
-          <name>AAVR</name>
-          <file> 38</file>
-        </tool>
-      </outputs>
+      <name>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.a90</name>
       <inputs>
         <tool>
-          <name>AAVR</name>
-          <file> 30 68 29 67</file>
+          <name>XLINK</name>
+          <file> 68 62 19 39 49 28 66 22 26 6 53 10 57</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\buttons.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 36</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 50</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 4 1 37 41 42 34 22 30 68 29 67 39 44 7 13</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 4 1 37 41 42 34 22 30 68 29 67 39 44 7 13</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\display.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 59</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 24</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 7 1 37 41 42 34 22 30 68 29 67 39 44 19 0</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 7 1 37 41 42 34 22 30 68 29 67 39 44 19 0</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\ds18b20.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 55</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 35</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 9 1 37 41 42 34 22 30 68 29 67 39 44</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 9 1 37 41 42 34 22 30 68 29 67 39 44</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\init.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 64</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 40</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 30 68 29 67 45 33 1 37 41 42 34 22 39 44 19</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 30 68 29 67 45 33 1 37 41 42 34 22 39 44 19</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 62</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 53</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 33 30 68 29 67 1 37 41 42 34 22 39 44 45 4 7 9 15 13 17 19</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 33 30 68 29 67 1 37 41 42 34 22 39 44 45 4 7 9 15 13 17 19</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\operation.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 47</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 51</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 13 1 37 41 42 34 22 30 68 29 67 39 44 9 4 7 15 33 45</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 13 1 37 41 42 34 22 30 68 29 67 39 44 9 4 7 15 33 45</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\relay.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 65</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 27</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 30 68 29 67 15 1 37 41 42 34 22 39 44 7</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 30 68 29 67 15 1 37 41 42 34 22 39 44 7</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\to.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 56</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 31</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 30 68 29 67 17 1 37 41 42 34 22 39 44 4 7 15 13</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 30 68 29 67 17 1 37 41 42 34 22 39 44 4 7 15 13</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\usi.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 25</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 60</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 30 68 29 67 19 1 37 41 42 34 22 39 44</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 30 68 29 67 19 1 37 41 42 34 22 39 44</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
+      <name>$PROJ_DIR$\..\..\..\[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 63 57 52</file>
+          <file> 31 64 17</file>
         </tool>
       </outputs>
     </file>
@@ -313,30 +101,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 36 59 55 64 62 47 65 56 25 46</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\voltagectrl.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 46</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 48</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 33 30 68 29 67 1 37 41 42 34 22 39 44 45 15</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 33 30 68 29 67 1 37 41 42 34 22 39 44 45 15</file>
+          <file> 25 60 3 8 35 20 65 56 45 50</file>
         </tool>
       </inputs>
     </file>
@@ -345,25 +110,85 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 49 66 38 50 24 35 40 53 51 27 31 60 20</file>
+          <file> 68 62 19 39 49 28 66 22 26 6 53 10 57</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.a90</name>
+      <name>$PROJ_DIR$\voltagectrl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
       <inputs>
         <tool>
-          <name>XLINK</name>
-          <file> 49 66 38 50 24 35 40 53 51 27 31 60 20</file>
+          <name>ICCAVR</name>
+          <file> 1 29 21 30 24 55 43 44 9 63 61 59 48 27 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 29 21 30 24 55 43 44 9 63 61 59 48 27 70</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.hex</name>
-      <inputs>
+      <name>$PROJ_DIR$\..\..\..\[ROOT_NODE]</name>
+      <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 49 66 38 50 24 35 40 53 51 27 31 60 20</file>
+          <file> 31 64 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\to.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 21 30 24 14 55 43 44 9 63 61 59 48 52 42 70 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 21 30 24 14 55 43 44 9 63 61 59 48 52 42 70 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 21 30 24 11 55 43 44 9 63 61 59 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 21 30 24 11 55 43 44 9 63 61 59 48</file>
         </tool>
       </inputs>
     </file>
@@ -372,13 +197,32 @@
       <outputs>
         <tool>
           <name>AAVR</name>
-          <file> 60</file>
+          <file> 10</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>AAVR</name>
-          <file> 30 68 29 67</file>
+          <file> 29 21 30 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user_interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 47 55 43 44 9 63 61 29 21 30 24 59 48 42 46</file>
         </tool>
       </inputs>
     </file>
@@ -387,32 +231,198 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 57 52</file>
+          <file> 64 17</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 49 66 38 50 24 35 40 53 51 27 31 60 48 20</file>
+          <file> 68 62 19 39 49 28 66 22 26 6 53 10 18 57</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\user_interface.c</name>
+      <name>$PROJ_DIR$\init.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 26</file>
+          <name>ICCAVR</name>
+          <file> 66</file>
         </tool>
         <tool>
-          <name>ICCAVR</name>
-          <file> 28</file>
+          <name>BICOMP</name>
+          <file> 8</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCAVR</name>
-          <file> 21 1 37 41 42 34 22 30 68 29 67 39 44 7 13</file>
+          <file> 29 21 30 24 27 1 55 43 44 9 63 61 59 48 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 21 30 24 27 1 55 43 44 9 63 61 59 48 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 1 29 21 30 24 55 43 44 9 63 61 59 48 27 52 42 37 70 46 14 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 29 21 30 24 55 43 44 9 63 61 59 48 27 52 42 37 70 46 14 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\operation.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 46 55 43 44 9 63 61 29 21 30 24 59 48 37 52 42 70 1 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 55 43 44 9 63 61 29 21 30 24 59 48 37 52 42 70 1 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ds18b20.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 37 55 43 44 9 63 61 29 21 30 24 59 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 55 43 44 9 63 61 29 21 30 24 59 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 42 55 43 44 9 63 61 29 21 30 24 59 48 11 4 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 55 43 44 9 63 61 29 21 30 24 59 48 11 4 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\buttons.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 52 55 43 44 9 63 61 29 21 30 24 59 48 42 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 55 43 44 9 63 61 29 21 30 24 59 48 42 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\bcd.s90</name>
+      <outputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 29 21 30 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ThermoRelay_iar.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 68 62 19 39 49 28 66 22 26 6 53 10 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\relay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 21 30 24 70 55 43 44 9 63 61 59 48 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 21 30 24 70 55 43 44 9 63 61 59 48 42</file>
         </tool>
       </inputs>
     </file>

@@ -104,7 +104,7 @@ void temperature_measurement(void)
 	    ds18b20_writebyte(DS18B20_CMD_SKIPROM);     //skip ROM
 	    ds18b20_writebyte(DS18B20_CMD_CONVERTTEMP); //start temperature conversion  
         
-            measurement.timeout= 2;                     //2 sec measurement failure timeout
+            measurement.timeout= MEASUREMENT_TO;   //2 sec measurement failure timeout
             measurement.state++;
             #if DS18B20_STOPINTERRUPT
 	    sei();
@@ -143,31 +143,35 @@ void temperature_measurement(void)
         }
         break;     
         
-    case 4: break;
-    case 255:break;
+    case 4: 
+        break;
+    case 255: 
+        //measurement.state = 1; /*try again*/ 
+        ((void (*)())0x0000)(); /*reset MCU*/    
+        break;
     default:
         measurement.state = 0;
         break;
     }
+    
+    temperature_measurement_autotrigger();
+    temperature_thresholds_check();
 }
 
 void temperature_measurement_autotrigger(void)
 {
         if(measurement.autotrigger_timeout == 0) 
         {             
-            measurement.state = 1;      //start temperature measurement
-            measurement.autotrigger_timeout = 2;    //2 sec auto trigger period 
-            
-            /*be sure that there aren't any errors*/
-            temperature_thresholds_check();
-            
-        }
+         measurement.state = 1;      //start temperature measurement
+         measurement.autotrigger_timeout = AUTOTRIGGER_TO;    //2 sec auto trigger period 
+        }   
 }
 
 
 void temperature_thresholds_check(void)
 {
-  /* MUST be checked if there's no errors: measurement.state !=255 or == 4 !!!*/
+  /*Check measurement.state if 4 -> continue, if 255 -> measure again.*/
+    if(measurement.state != 4) return;
   
     if(measurement.temperature <= e_temperature + TEMP_DN_HYSTERESIS) 
         relay.event1 = 0;

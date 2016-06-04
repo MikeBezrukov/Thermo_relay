@@ -1,6 +1,7 @@
 #include "display.h"
 #include "usi.h"
 #include "bcd.h"
+#include "relay.h"
 
 __flash uint8_t digit[] = {0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};
 
@@ -56,10 +57,17 @@ void display_refresh(void)
      
      reg = display.led_word; 
      reg = blink_flg ? 0xFFFF : reg;  
-        
+     
+     /*
      reg = digit_no ? (reg&display.dec_point | 0x4000) : ((reg>>8) | 0x8000);
      reg = (reg & 0xF0FF) | ((int)(display.aux_register & 0x0F)<<8); 
-     write_rg(reg);              
+     write_rg(reg); 
+     */
+     PORTA &= ~0x06;
+     reg = digit_no ? (reg&display.dec_point) : (reg>>8);
+     write_rg(reg);
+     PORTA |= digit_no ? 0x04 : 0x02;
+  
     }  
 }
 
@@ -72,7 +80,7 @@ void display_dec_point(void)
     {
         display.dec_point = (display.dec_point==DOT_OFF) ? DOT_ON : DOT_OFF; 
         
-        if(display.aux_register & 0x0F) 
+        if(display.aux_register & RELAY_ON) 
           display.dot_blink_timeout = DISPLAY_DOT_BLINK_TO_RLY_ON;
         else 
           display.dot_blink_timeout = DISPLAY_DOT_BLINK_TO_RLY_OFF;

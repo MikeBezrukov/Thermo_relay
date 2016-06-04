@@ -7,12 +7,13 @@
 void mcu_init(void)
 {
 // Crystal Oscillator division factor: 1
-CLKPR=0x80;
-CLKPR=0x00;
-
+//CLKPR=0x80;
+//CLKPR=0x00;
+    
 // IO - Ports initialization
 PORTA=0xF0;
-DDRA=0x70;
+//DDRA=0x70;
+DDRA=0x77;
 
  //DDRA=0x71; //Activate U_Debug probe.
 //PORTB=0x0D;
@@ -53,5 +54,5 @@ WDTCSR=0x29;
 // Mode: Three Wire (SPI)
 v_spi_init();
 //Clear registers (In order to ensure STOP state)
-write_rg(0x0000);           
+//write_rg(0x0000);           
 }

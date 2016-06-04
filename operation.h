@@ -4,7 +4,7 @@
 #include "avr_compiler.h"
 
 /*Set up the measurement parameters*/
-#define MEASUREMENT_TO  2 //2sec. Measurement timeout, when 
+#define MEASUREMENT_TO  2 //2sec. DS18b20 have no result - measur-t failure.
 #define AUTOTRIGGER_TO  2 //2sec. Automatic trigger of temperature measuremnt.
 
 /*Set up the temperature adjustment range*/

@@ -26,7 +26,8 @@ void relay_operation(void)
         else               
         {      
           display.aux_register = RELAY_ON;
-          display.refresh_timeout = 0;    
+          RELAY__ON();
+          //display.refresh_timeout = 0;    
           relay.operation_timeout = RELAY_ON_TO;
           relay.state++;
         } 
@@ -39,7 +40,8 @@ void relay_operation(void)
         if(!relay.activity || relay.operation_timeout==0)
         {
           display.aux_register = RELAY_OFF;
-          display.refresh_timeout = 0;      
+          RELAY__OFF();
+          //display.refresh_timeout = 0;      
           relay.operation_timeout=RELAY_OFF_TO;
           relay.state++;
         }              
