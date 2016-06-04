@@ -1,0 +1,42 @@
+
+#include <ioavr.h>
+
+//The function send 8 bits (of data) through "mosi" pin, 
+//simulteneously receive 8 bits throught "miso" pin and return received byte.
+
+MODULE v_spi_tx
+PUBLIC v_spi_tx
+RSEG CODE  
+
+v_spi_tx:  
+
+
+          //ld r30, data_
+          out USIDR,r30
+          ldi r30,(1<<USIWM0)|(0<<USICS0)|(1<<USITC)
+          ldi r31,(1<<USIWM0)|(0<<USICS0)|(1<<USITC)|(1<<USICLK)
+          out USICR,r30 //; MSB
+          out USICR,r31
+          out USICR,r30
+          out USICR,r31
+          out USICR,r30
+          out USICR,r31
+          out USICR,r30
+          out USICR,r31
+          out USICR,r30
+          out USICR,r31
+          out USICR,r30
+          out USICR,r31
+          out USICR,r30
+          out USICR,r31
+          out USICR,r30 //; LSB
+          out USICR,r31  
+          
+          //in r30,USIDR
+          in r16, USIDR  
+          ret
+ENDMOD
+
+END
+
+;End of File

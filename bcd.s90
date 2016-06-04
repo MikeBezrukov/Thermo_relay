@@ -1,0 +1,22 @@
+#include <ioavr.h>
+
+MODULE bin2bcd
+PUBLIC bin2bcd
+RSEG CODE  
+
+bin2bcd:  
+    clr  r30
+bin2bcd0:
+    subi r16,10
+    brmi bin2bcd1
+    subi r30,-16
+    rjmp bin2bcd0
+bin2bcd1:
+    subi r16,-10
+    add  r16,r30
+    ret
+
+ENDMOD
+END
+
+;End of File
