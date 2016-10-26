@@ -4,7 +4,7 @@ For more detail please see:
 http://mikebezrukov.blogspot.com/2015/06/the-electronic-thermorelay-from-scratch.html
 
 FURTHER DEVELOPMENT
-a) add sevice menu
-b) adjust low and up hysteresis
-c) adjust undervoltage and overvoltage thresholds
-d) timing adjustments
+a) add service menu
+b) add adjustments low and up hysteresis
+c) add adjustments undervoltage and overvoltage thresholds
+d) add timing adjustments
